@@ -4,6 +4,12 @@
 2. **QUE TIPO DE PESSOA QUERO ME TORNAR?**
 3. **O QUE QUERO QUE AS PESSOAS PENSEM DE MIM QUANDO ME VEREM?**
 
+░░░░░███████ ]▄▄▄▄▄▄▄▄
+▂▄▅█████████▅▄▃▂ ☻
+Il███████████████████]./ ▌\╦─
+@@@@@@@@@@@@@@ / \
+
+
 ---
 
 >** FALTAM DO DIA 28/08/2026 ATÉ O DIA DA APRESENTAÇÃO: 50 DIAS, INCLUINDO O DIA DO EVENTO**
