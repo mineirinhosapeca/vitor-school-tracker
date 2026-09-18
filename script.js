@@ -14,4 +14,5 @@ function renderizarDashboard(movimentacoes) {
       const minutos = calcularMinutosFora(m.data_hora_saída);
       const isCritical = minutos > 10;
 
-      const card = 
+      const card = '
+        <div class = "student-card $(isCritical ? )
