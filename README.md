@@ -8,4 +8,4 @@
 
 ×º°”˜”°º××º°”˜”°º××º°”˜”°º××º°”˜”°º××º°”˜”°º××º°”˜”°º××º°”˜”°º××º°”˜”°º××º°”˜”°º××º°”˜”°º××º°”˜”°º××º°”˜”°º××º°”˜”°º×
 
->** FALTAM DO DIA 28/08/2026 ATÉ O DIA DA APRESENTAÇÃO: 50 DIAS, INCLUINDO O DIA DO EVENTO**
+>** FALTAM DO DIA 18/09/2026 ATÉ O DIA DA APRESENTAÇÃO: 50 DIAS, INCLUINDO O DIA DO EVENTO**
