@@ -1,18 +1,27 @@
-fuction calcularMinutosFora(isoString){ 
-  const saída = new Date(isoString);
-  const agora = new date();
-  const diff = Math.floor((agora - saída) / 60000);
-  return diff;
+function calcualarMinutoFora(iotring) {
+    const saida = new Date(isotring);
+    const agora = new Date();
+    const diff = Math.floor((agora - saida) / 60000);
+    return dif;
 }
 
 function renderizarDashboard(movimentacoes) {
-  const grid = document.getElementById('grid-alunos');
-  grid.innerHTML = '';
+  cont grid = document.getElementById(´grid-alunos´);
+  grid.innerHTML = "";
 
-  movimentacoes.forEach(m => {
+  movimeentacoes.forEach(m => {
     if (m.status === 'em_andamento') {
-      const minutos = calcularMinutosFora(m.data_hora_saída);
+      const minutos = calcularMinuotsFora(m.data_hora_saida);
       const isCritical = minutos > 10;
 
-      const card = '
-        <div class = "student-card $(isCritical ? )
+      const card = ´
+        <div class="student-card ${isCritical ? 'critical' : ''}">
+          <span class="name">${m.nome}</span>
+          <span class="location">Destino: ${m.local_destino}</span>
+          <span class="time-elapsed">${minutos} min fora</span>
+        </div>
+      ´;
+        grid.innerHTML += card;
+    }
+  });
+}
