@@ -22,7 +22,7 @@ def gerar_crachas():
         nome = aluno['nome']
         turma = aluno['turma']
         tag = aluno['tag']
-
+       
         print(f"Gerando crachá para: {nome}...")
 
         # 2. Criar o QR Code
@@ -35,13 +35,13 @@ def gerar_crachas():
         largura_qr, altura_qr = img_qr.size
         altura_total = altura_qr + 100
         cracha = Image.new('RGB', (largura_qr, altura_total), color='white')
-
+       
         # Colar o QR Code no topo
         cracha.paste(img_qr, (0, 0))
 
         # 4. Escrever o Nome e Turma (Texto centralizado)
         draw = ImageDraw.Draw(cracha)
-
+       
         # Tenta carregar uma fonte, se não tiver, usa a padrão
         try:
             fonte_nome = ImageFont.truetype("arial.ttf", 25)
@@ -52,7 +52,6 @@ def gerar_crachas():
 
         # Desenhar o Nome
         draw.text((largura_qr/2, altura_qr + 10), nome, fill="black", font=fonte_nome, anchor="mm")
-
         # Desenhar a Turma
         draw.text((largura_qr/2, altura_qr + 45), turma, fill="gray", font=fonte_turma, anchor="mm")
 
